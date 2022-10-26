@@ -1,6 +1,6 @@
 a:hover{
     text-decoration: none;
-    color: black;
+    color: yellow;
 }
 .divgreeting{
     background-color: black;
@@ -10,5 +10,10 @@ a:hover{
 }
 
 .parrafo{
+    color: yellow;
+}
+
+.Nav{
+    background-color: black;
     color: yellow;
 }

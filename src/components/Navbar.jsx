@@ -12,6 +12,7 @@ import Typography from '@mui/material/Typography';
 import * as React from 'react';
 import Cartwidget from './Cartwidget';
 import '../App.css';
+import Logo from "../../src/imagenes/logo.png"
 
 const pages = [{label: "Productos", link: "/productos"}, {label:"Nosotros", link: "/nosotros"}, {label: "Contacto", link: "/contacto"}];
 
@@ -36,11 +37,11 @@ export default function Navmui() {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      <Container className='Nav' maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          <img src={Logo} alt={"logo"} style= {{width: 100, height: 70 } } />
           <Typography
-            variant="h6"
+            variant="h4"
             noWrap
             component="a"
             href="/"
@@ -50,12 +51,10 @@ export default function Navmui() {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: 'yellow',
               textDecoration: 'none',
             }}
-          >
-            Batsi
-          </Typography>
+          >Batsi</Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
@@ -112,7 +111,7 @@ export default function Navmui() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+          <img src="" alt="" />
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
