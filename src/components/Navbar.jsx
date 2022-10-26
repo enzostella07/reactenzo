@@ -37,7 +37,7 @@ export default function Navmui() {
 
   return (
     <AppBar position="static">
-      <Container className='Nav' maxWidth="xl">
+      <Container className='Nav' maxWidth="x2">
         <Toolbar disableGutters>
           <img src={Logo} alt={"logo"} style= {{width: 100, height: 70 } } />
           <Typography
