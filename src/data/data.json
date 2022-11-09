@@ -1,0 +1,155 @@
+[
+  {
+    "id": 1,
+    "title": "Batmobile 60s",
+    "description": "Un llamativo batmobile... inolvidable para los fans!!",
+    "price": 170,
+    "quantity": 2,
+    "category": "batmobile",
+    "pictureURL": "http://4.bp.blogspot.com/-TrFYh7uefFc/T_4H1PXAK4I/AAAAAAAAD9A/MOW9EsXJE4o/s1600/batman-original-series-batmobile-toy+2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Batmobile of Batman 1989",
+    "description": "El batmobile más icónico, desde aca todo cambia... ",
+    "price": 150,
+    "quantity": 5,
+    "category": "batmobile",
+    "pictureURL": "https://i0.wp.com/toy-wizards.com/wp-content/uploads/2021/11/4d0d155943534eda973876a2185c56e2xl.jpg?resize=723%2C723&ssl=1"
+  },
+  {
+    "id": 3,
+    "title": "Batmobile animated series",
+    "description": "El batmobile más recordado por todos los fans, con esa delantera interminable",
+    "price": 200,
+    "quantity": 12,
+    "category": "batmobile",
+    "pictureURL": "https://bbts1.azureedge.net/images/p/full/2019/02/7e2691e4-90fc-4ee6-b0ca-2f1d22a6c154.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Batmobile Batman forever",
+    "description": "Raro y lindo a la vez",
+    "price": 80,
+    "quantity": 17,
+    "category": "batmobile",
+    "pictureURL": "https://http2.mlstatic.com/D_NQ_NP_730510-MLA41554375471_042020-O.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Batmobile Batman and Robin",
+    "description": "De los menos recordados",
+    "price": 70,
+    "quantity": 20,
+    "category": "batmobile",
+    "pictureURL": "https://www.ethanproductions.com/hotwheels-newDB/images/027084828368.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Batmobile begins",
+    "description": "Hermoso auto de guerra",
+    "price": 110,
+    "quantity": 20,
+    "category": "batmobile",
+    "pictureURL": "https://www.sideshow.com/cdn-cgi/image/width=1429,quality=80,f=auto/https://www.sideshow.com/storage/product-images/908080/batmobile_dc-comics_gallery_60622d5c0dafb.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Batmobile Batman vs Superman",
+    "description": "Unos de mis batmobiles favoritos",
+    "price": 100,
+    "quantity": 10,
+    "category": "batmobile",
+    "pictureURL": "https://http2.mlstatic.com/D_NQ_NP_657828-MLA42144244114_062020-O.webp"
+  },
+  {
+    "id": 8,
+    "title": "Batmobile The Batman",
+    "description": "Único batimovil, bien rustico... recordado por la persecución al pingüino",
+    "price": 60,
+    "quantity": 9,
+    "category": "batmobile",
+    "pictureURL": "https://m.media-amazon.com/images/I/51GakSArNQL._AC_SL1000_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Batman 60s",
+    "description": "El Batman con el que empezó todo",
+    "price": 100,
+    "quantity": 22,
+    "category": "toy",
+    "pictureURL": "https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2021/07/12221138/Batman-66-fig.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Batman of the Future",
+    "description": "Un Batman poco conocido, sin duda tiene de las mejores películas animadas de este personaje",
+    "price": 80,
+    "quantity": 32,
+    "category": "toy",
+    "pictureURL": "https://m.media-amazon.com/images/I/71fjQetlGPL.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Batman animated series",
+    "description": "Una hermosa serie animada, recordada para muchos como la mejor.",
+    "price": 70,
+    "quantity": 22,
+    "category": "toy",
+    "pictureURL": "https://http2.mlstatic.com/D_NQ_NP_888159-MLA41948382665_052020-O.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Batman 1989",
+    "description": "Un bello traje, para una muy buena película.",
+    "price": 110,
+    "quantity": 20,
+    "category": "toy",
+    "pictureURL": "https://www.continuara-comics.com/Imagenes/Articulos/634482612415.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Batman Forever",
+    "description": "Un hermoso muñeco, para coleccionar",
+    "price": 200,
+    "quantity": 2,
+    "category": "toy",
+    "pictureURL": "https://media.vandal.net/m/2-2021/20212314594570_1.jpg.webp"
+  },
+  {
+    "id": 13,
+    "title": "Batman and Robin",
+    "description": "El peluche mas amigable",
+    "price": 20,
+    "quantity": 12,
+    "category": "toy",
+    "pictureURL": "https://1.bp.blogspot.com/-qtLk-13M8Lw/XcMrsrfBCQI/AAAAAAAAMPM/J6rnG9QXEyYRuPj6PAt2AhO8VmtVup3ugCLcBGAsYHQ/s1600/x5zmdllrjsw31.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Batman Christian Bale",
+    "description": "Para coleccionar. El batman mas recordado por el publico",
+    "price": 250,
+    "quantity": 5,
+    "category": "toy",
+    "pictureURL": "https://cdn.shopify.com/s/files/1/0563/0758/1089/products/3_894x1311_7e8ce6d7-c53b-4858-86b9-a3b8d4dd9cd1.jpg?v=1637190507"
+  },
+  {
+    "id": 16,
+    "title": "Batman Ben Affleck",
+    "description": "Para coleccionar. Un batman que poco gusto, pero no lo supieron entender...",
+    "price": 220,
+    "quantity": 10,
+    "category": "toy",
+    "pictureURL": "https://i.pinimg.com/736x/6b/9b/5c/6b9b5ceb45999305a6f079207677681e.jpg"
+  },
+  {
+    "id": 17,
+    "title": "The Batman",
+    "description": "Hermoso muñeco para coleccionar, y acordarte de que todavia hay esperanza...",
+    "price": 130,
+    "quantity": 15,
+    "category": "toy",
+    "pictureURL": "https://media.gamestop.com/i/gamestop/11168068/McFarlane-Toys-DC-Multiverse-The-Batman---Batman-12-in-Statue"
+  }
+]
