@@ -4,7 +4,7 @@ import Data from "../data/data.json";
 import ItemList from "./ItemList";
 
 export default function ItemListContainer() {
-  const { categoryId } = useParams();
+  const { categoryid } = useParams();
   const [arrayDeProductos, setArrayDeProductos] = useState([]);
 
   useEffect(() => {
@@ -16,13 +16,13 @@ export default function ItemListContainer() {
 
     getData
     .then((res) => {
-      if (categoryId) {
-        setArrayDeProductos(res.filter((item) => item.category == categoryId));
+      if (categoryid) {
+        setArrayDeProductos(res.filter((item) => item.category == categoryid));
       } else {
         setArrayDeProductos(res);
       }
     });
-  }, [categoryId]);
+  }, [categoryid]);
 
   return (
     <>

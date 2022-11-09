@@ -19,8 +19,8 @@ export default function App() {
           <Route path="/" element={<ItemListContainer />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/category/:categoryId" element={<ItemListContainer />} />
-          <Route path="/item/:itemId" element={<ItemDetailContainer />} />
+          <Route path="/category/:categoryid" element={<ItemListContainer />} />
+          <Route path="/item/:itemid" element={<ItemDetailContainer />} />
           <Route />
         </Routes>
       </BrowserRouter>

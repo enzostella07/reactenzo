@@ -47,7 +47,7 @@
   {
     "id": 6,
     "title": "Batmobile begins",
-    "description": "Hermoso auto de guerra",
+    "description": "Hermoso auto de coleccion",
     "price": 110,
     "quantity": 20,
     "category": "batmobile",
@@ -72,7 +72,7 @@
     "pictureURL": "https://m.media-amazon.com/images/I/51GakSArNQL._AC_SL1000_.jpg"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Batman 60s",
     "description": "El Batman con el que empezó todo",
     "price": 100,
@@ -81,7 +81,7 @@
     "pictureURL": "https://legendary-digital-network-assets.s3.amazonaws.com/wp-content/uploads/2021/07/12221138/Batman-66-fig.jpg"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Batman of the Future",
     "description": "Un Batman poco conocido, sin duda tiene de las mejores películas animadas de este personaje",
     "price": 80,
@@ -90,7 +90,7 @@
     "pictureURL": "https://m.media-amazon.com/images/I/71fjQetlGPL.jpg"
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Batman animated series",
     "description": "Una hermosa serie animada, recordada para muchos como la mejor.",
     "price": 70,
@@ -99,7 +99,7 @@
     "pictureURL": "https://http2.mlstatic.com/D_NQ_NP_888159-MLA41948382665_052020-O.jpg"
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Batman 1989",
     "description": "Un bello traje, para una muy buena película.",
     "price": 110,
@@ -108,7 +108,7 @@
     "pictureURL": "https://www.continuara-comics.com/Imagenes/Articulos/634482612415.jpg"
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Batman Forever",
     "description": "Un hermoso muñeco, para coleccionar",
     "price": 200,
@@ -117,7 +117,7 @@
     "pictureURL": "https://media.vandal.net/m/2-2021/20212314594570_1.jpg.webp"
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Batman and Robin",
     "description": "El peluche mas amigable",
     "price": 20,

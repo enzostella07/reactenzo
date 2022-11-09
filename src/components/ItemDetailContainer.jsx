@@ -5,7 +5,7 @@ import ItemDetail from "./ItemDetail";
 
 export default function ItemDetailContainer() {
   const [arrayDetail, setArrayDetail] = useState([]);
-  const { itemId } = useParams();
+  const { itemid } = useParams();
 
   useEffect(() => {
     const getData = new Promise((res) => {
@@ -16,9 +16,9 @@ export default function ItemDetailContainer() {
 
     getData
     .then((res) =>
-    setArrayDetail(res.find((Data) => Data.id === parseInt(itemId)))
+    setArrayDetail(res.find((Data) => Data.id === parseInt(itemid)))
     );
-  }, [itemId]);
+  }, [itemid]);
 
   return <ItemDetail data={arrayDetail} />;
 }
