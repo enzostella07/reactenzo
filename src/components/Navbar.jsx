@@ -97,7 +97,7 @@ export default function Navmui() {
               {pages.map((page) => (
                 <MenuItem key={page.label} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <a href={page.link}>{page.label}</a>
+                    <Link to={page.link}>{page.label}</Link>
                   </Typography>
                 </MenuItem>
               ))}

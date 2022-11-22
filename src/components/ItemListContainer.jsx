@@ -17,7 +17,7 @@ export default function ItemListContainer() {
     getData
     .then((res) => {
       if (categoryid) {
-        setArrayDeProductos(res.filter((item) => item.category == categoryid));
+        setArrayDeProductos(res.filter((item) => item.category === categoryid));
       } else {
         setArrayDeProductos(res);
       }
