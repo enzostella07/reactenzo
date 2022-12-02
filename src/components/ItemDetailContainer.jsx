@@ -1,24 +1,28 @@
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Data from "../data/data.json";
 import ItemDetail from "./ItemDetail";
 
 export default function ItemDetailContainer() {
-  const [arrayDetail, setArrayDetail] = useState([]);
+  const [producto, setProducto] = useState({});
   const { itemid } = useParams();
 
   useEffect(() => {
-    const getData = new Promise((res) => {
-      setTimeout(() => {
-        res(Data);
-      }, 1000);
-    });
+    const db = getFirestore();
+    const refDoc = doc(db, "productos", itemid)
 
-    getData
-    .then((res) =>
-    setArrayDetail(res.find((Data) => Data.id === parseInt(itemid)))
-    );
+    getDoc(refDoc).then((item) => {
+      const aux = {
+        ...item.data(),
+        id: item.id,
+      }
+      setProducto(aux);
+    });
   }, [itemid]);
 
-  return <ItemDetail data={arrayDetail} />;
+  return (
+    <div>
+      <ItemDetail producto={producto} />;
+    </div>
+  );
 }

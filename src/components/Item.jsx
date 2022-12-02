@@ -17,7 +17,7 @@ export default function Item({ products }) {
     <div>
       <p> </p>
     </div>
-      <Card style={{ backgroundColor: "black" }}>
+      <Card className="cards" style={{ backgroundColor: "black", border: "2px solid yellow", margin: "10px"  }}>
         <CardHeader
           title={products.title}
           sx={{ textAlign: "center" }}
@@ -25,7 +25,7 @@ export default function Item({ products }) {
         />
         <CardMedia
           component="img"
-          image={products.pictureURL} /*style= {{height:550}}*/
+          image={products.pictureURL}
         />
         <CardContent>
           <Typography

@@ -1,25 +1,43 @@
-body{
-    background-color: aqua;
+body {
+  background-image: url("https://i.pinimg.com/originals/b0/da/f2/b0daf2ef692567bbba58fa91de942a97.jpg");
+  position: relative;
+}
+a {
+  color: yellow;
+  background-color: black;
+}
+.cards:hover {
+  transform: translateY(-5px);
+  transition: 1s;
+  -webkit-box-shadow: 9px 4px 16px 11px rgba(209,207,209,1);
+  -moz-box-shadow: 9px 4px 16px 11px rgba(209,207,209,1);
+  box-shadow: 9px 4px 16px 11px rgba(209,207,209,1);
+  border: 5px solid yellow;
+  margin: 10px;
+}
+.formulario {
+  width: 500px;
+  height: 250px;
 }
 
-.boton{
-    color: black;
-    font-weight: bold;
-    background-color: yellow;
-    padding: 15px;
-    margin: 0px;
-    border-radius: 50px;
+.boton {
+  color: black;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 15px;
+  margin: 0px;
+  border-radius: 50px;
 }
 
-.Nav{
-    background-color: black;
-    color: yellow;
+.Nav {
+  background-color: black;
+  color: yellow;
 }
 
-.counter{
-    width: fit-content;
-    background-color: gold;
-    margin: auto;
-    padding: 1rem;
-    text-align: center;
+.counter {
+  width: fit-content;
+  background-color: gold;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
 }

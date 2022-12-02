@@ -14,16 +14,22 @@ import Cartwidget from "./Cartwidget";
 import "../App.css";
 import Logo from "../../src/imagenes/logo.png";
 import { Link } from "react-router-dom";
-
+import { contextoGeneral } from "../components/ContextContainer";
 
 const pages = [
   { label: "Home", link: "/" },
   // { label: "Checkout", link: "/checkout" },
-  // { label: "Contacto", link: "/contacto" },
   { label: "Batmobile", link: "/category/batmobile" },
   { label: "Toys", link: "/category/toy" },
 ];
 export default function Navmui() {
+  const { carrito } = React.useContext(contextoGeneral);
+  const  [cant, setCant]  = React.useState(0);
+  React.useEffect(() => {
+    // setCant(carrito.length)
+    setCant(carrito.reduce((acc, item)=> acc + item.quantity, 0))
+  }, [carrito]);
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
 
@@ -129,14 +135,13 @@ export default function Navmui() {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
               >
-              <Link to={page.link}>{page.label}</Link>
+                <Link to={page.link}>{page.label}</Link>
               </Button>
             ))}
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            {" "}
-            <Cartwidget />{" "}
+            <Cartwidget cant={cant} />
           </Box>
         </Toolbar>
       </Container>
