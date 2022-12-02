@@ -1,6 +1,5 @@
-import { Height } from "@mui/icons-material";
 import DeleteIcon from "@mui/icons-material/Delete";
-import { Button } from "@mui/material";
+import { Button, Grid, Typography } from "@mui/material";
 import Chip from "@mui/material/Chip";
 import Paper from "@mui/material/Paper";
 import { styled } from "@mui/material/styles";
@@ -102,25 +101,25 @@ export default function Cart() {
                     {cartAux.length ? <h2>USD$ {totalToPay}</h2> : <>$0</>}
                   </TableCell>
                   <>
-                      {cartAux.length ? (
-                        <Button
-                          onClick={() => clear()}
-                          style={{
-                            color: "black",
-                            backgroundColor: "red",
-                            fontWeight: "bold",
-                            fontSize: "15px",
-                            padding: "15px",
-                            margin: "20px 0 0 0",
-                            borderRadius: "30px",
-                          }}
-                        >
-                          VACIAR CARRITO
-                        </Button>
-                      ) : (
-                        ""
-                      )}
-                    </>
+                    {cartAux.length ? (
+                      <Button
+                        onClick={() => clear()}
+                        style={{
+                          color: "black",
+                          backgroundColor: "red",
+                          fontWeight: "bold",
+                          fontSize: "15px",
+                          padding: "15px",
+                          margin: "20px 0 0 0",
+                          borderRadius: "30px",
+                        }}
+                      >
+                        VACIAR CARRITO
+                      </Button>
+                    ) : (
+                      ""
+                    )}
+                  </>
                   <>
                     {cartAux.length ? (
                       <Button>
@@ -151,12 +150,37 @@ export default function Cart() {
           </TableContainer>
         </>
       ) : (
-        <>
-          <h1 style={{ backgroundColor: "red" }}>Carrito vacio :/</h1>
-          <h3 style={{ backgroundColor: "red" }}>
-            Mira nuestro catalogo <Link to="/">click aqui</Link>
-          </h3>
-        </>
+        <div style={{backgroundColor:"grey"}}>
+          <Grid
+            container
+            direction="column"
+            alignItems="center"
+            padding="40px"
+            spacing={5}
+          >
+            <Grid item>
+              <Typography
+                variant="h3"
+                color="initial"
+                sx={{ textAlign: "center" }}
+                style={{
+                  backgroundColor:"grey",
+                  padding: "15px",
+                  margin: "20px 0 0 0",
+                  borderRadius: "30px",
+                }}
+              >
+                No hay elementos en tu Baticarrito...
+              </Typography>
+            </Grid>
+
+            <Grid item>
+              <Link to={`/`} style={{ textDecoration: "none" }}>
+                <Button variant="contained">Hacer compras</Button>
+              </Link>
+            </Grid>
+          </Grid>
+        </div>
       )}
     </>
   );

@@ -30,8 +30,14 @@ export default function Checkout() {
         quantity: product.quantity,
       })),
     };
+
     const db = getFirestore();
     const pedidos = collection(db, "Pedidos");
+
+    if (tel.length <= 9) {
+      alert("Escriba bien su numero")
+      return
+    }
     if (name.length < 2) {
       alert("escriba bien su nombre");
       return;
